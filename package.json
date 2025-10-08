@@ -1,0 +1,18 @@
+{
+  "repository": {
+    "url": "git+https://github.com/osmelpa86/aprendiendo-react.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/osmelpa86/aprendiendo-react/issues"
+  },
+  "homepage": "https://github.com/osmelpa86/aprendiendo-react#readme",
+  "devDependencies": {
+    "standard": "^17.1.2"
+  },
+  "eslintConfig": {
+    "extends": "./node_modules/standard/eslintrc.json"
+  }
+}

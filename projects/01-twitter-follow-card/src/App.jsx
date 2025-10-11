@@ -1,5 +1,5 @@
 import "./App.css";
-import { TwitterFollowCard } from "./TwitterFollowCard";
+import { TwitterFollowCart } from "./TwitterFollowCart";
 
 const users = [
   {
@@ -30,12 +30,12 @@ function App() {
       {users.map((user) => {
         const { userName, name, isFollowing } = user;
         return (
-          <TwitterFollowCard
+          <TwitterFollowCart
             userName={userName}
             initialIsFollowing={isFollowing}
             key={userName}>
             {name}
-          </TwitterFollowCard>
+          </TwitterFollowCart>
         );
       })}
     </section>
